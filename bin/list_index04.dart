@@ -6,4 +6,13 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List list1) {
+  return list1;
+  List a = [list1.last];
+  return a;
+}
+
+void main() {
+  print(func([1, 8, 8, 8]).last);
+  print(func([1, 8, 8, 8]));
+}
