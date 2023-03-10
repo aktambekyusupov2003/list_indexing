@@ -7,19 +7,14 @@
         list: return answer
 */
 
+List func(List list1) {
+  List a = [list1[0]];
 
-
- List func(List list1){
-    return list1;
- }
- List func(){
-    List ls=[];
-    return ls;
+  return list1[0];
+  return a;
 }
- 
- 
+
 void main() {
-    print(func([]));
+  print(func(['aktam', 5, 5, 5, 2]));
+  print(func([5, 5, 5, 2]));
 }
-    print(func());
-   
