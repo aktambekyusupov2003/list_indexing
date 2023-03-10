@@ -8,9 +8,10 @@
 */
 List func(List list1) {
   return list1;
-  List a = [list1.last];
-  return a;
 }
+  List a = [list1.last];
+  retrun answer;
+
 
 void main() {
   print(func([1, 8, 8, 8]).last);
