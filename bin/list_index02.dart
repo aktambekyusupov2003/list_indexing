@@ -6,4 +6,11 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List list1) {
+  var answer = list1[0];
+  return [answer];
+}
+
+void main() {
+  print(func([2, 2, 2, 2]));
+}
