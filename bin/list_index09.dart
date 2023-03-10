@@ -14,14 +14,13 @@ bool func(List list1) {
     int c = 1;
     while (b > 0) {
       if (list1[a] == list1[b]) {
-        True;
         b += 1;
         c += 1;
         b = b - 1;
       } else {
         return false;
       }
-      return False;
     }
   }
+  return False;
 }
