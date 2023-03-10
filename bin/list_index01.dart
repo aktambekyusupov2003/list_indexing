@@ -11,7 +11,6 @@ List func(List list1) {
   List a = [list1[0]];
 
   return list1[0];
-  return a;
 }
 
 void main() {
