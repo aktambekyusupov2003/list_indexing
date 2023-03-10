@@ -12,5 +12,4 @@ List func(List list1) {
 
 void main() {
   print(func([1, 8, 8, 8]).last);
-  print(func([1, 8, 8, 8]));
 }
