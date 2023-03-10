@@ -12,5 +12,4 @@ List func() {
   List x = [];
   return x;
 }
-
 void main() {}

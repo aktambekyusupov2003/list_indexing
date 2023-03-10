@@ -3,6 +3,7 @@
     A list of several elements is given. Return the last item.
     Args:
         list1 (list): parameter
+        
     Returns:
         list: return answer
 */
@@ -12,5 +13,5 @@ List func(List list1) {
 }
 
 void main() {
-  print(func([1, 8, 8, 8]).last);
+  print(func([1, 8, """""" """"a""" """""", 8, 8]));
 }
