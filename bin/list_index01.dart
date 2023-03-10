@@ -7,13 +7,10 @@
         list: return answer
 */
 
-List func(List list1) {
-  List a = [list1[0]];
-
-  return list1[0];
+List func() {
+  return [];
+  List x = [];
+  return x;
 }
 
-void main() {
-  print(func(['aktam', 5, 5, 5, 2]));
-  print(func([5, 5, 5, 2]));
-}
+void main() {}
