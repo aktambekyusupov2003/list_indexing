@@ -9,10 +9,7 @@
 */
 List func(List list1, List list2) {
   var answer = list1 + list2;
-  return [answer];
 }
-  return answer;
-
 
 void main() {
   print(func([2, 2, 2], [2, 2, 2]));
