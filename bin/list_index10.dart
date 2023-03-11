@@ -16,6 +16,7 @@ List func(List list_num) {
   return a;
 }
 
+
 void main() {
   print(func([6, 6, 6]));
 }
