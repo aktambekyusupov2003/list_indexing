@@ -9,10 +9,9 @@
 
 bool func(List list1) {
   int a = 0;
-  int b = list1.length - 1; //4/3/2/1/0
+  int b = list1.length - 1;
   int c = 1;
 
-  ///2/3/4/5
   while (b > 0) {
     if (list1[a] == list1[b]) {
       c += 1;
