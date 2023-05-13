@@ -13,5 +13,5 @@ List func(List list1, int i) {
 }
 
 void main() {
-  print(func([2, 6, 2, 8], 2));
+  print(func([1, 2, 3, 4, 5], 1));
 }

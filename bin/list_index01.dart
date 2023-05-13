@@ -6,12 +6,7 @@
     Returns:
         list: return answer
 */
-
-List func() {
-  return [];
-  List x = [];
-  return x;
-}
-void main() {
-  
+void main(){
+  List x = [ ];
+  print(x);
 }

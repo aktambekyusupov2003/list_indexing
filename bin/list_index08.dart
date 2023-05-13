@@ -21,5 +21,5 @@ List func(List list1) {
 }
 
 void main() {
-  print(func([2, 0, 1, 0, 5, 0, 6]));
+  print(func([1, 0, 0, 0, 0]));
 }
